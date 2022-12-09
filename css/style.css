@@ -76,3 +76,9 @@ td p {
 .rating-5 {
     width: 100px;
 }
+
+footer {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
