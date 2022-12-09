@@ -1,71 +1,81 @@
+html {
+  font-size: 16px;
+  font-family: "AvenirNext", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 body {
-    font-family: "AvenirNext","Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #d3d3d3;
+  background-color: #d3d3d3;
 }
 
 nav {
-    padding: 10px;
-    text-align: center;
-    background-color: #b0c4de;
+  padding: 10px;
+  text-align: center;
+  background-color: #b0c4de;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 2em;
-    padding: 10px;
-    margin: 1px;
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+  padding: 10px;
+  margin: 1px;
 
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,589cd3+48,7db9e8+100 */
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,589cd3+48,7db9e8+100 */
 
-    /* Old browsers */
-    background: #1e5799;
-    /* FF3.6-15 */
-    background: -moz-linear-gradient(top, #1e5799 0%, #589cd3 48%, #7db9e8 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: -webkit-linear-gradient(top, #1e5799 0%, #589cd3 48%, #7db9e8 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    background: linear-gradient(to bottom, #1e5799 0%, #589cd3 48%, #7db9e8 100%);
-    /* IE6-9 */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=0);
+  /* Old browsers */
+  background: #1e5799;
+  /* FF3.6-15 */
+  background: -moz-linear-gradient(top, #1e5799 0%, #589cd3 48%, #7db9e8 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-linear-gradient(
+    top,
+    #1e5799 0%,
+    #589cd3 48%,
+    #7db9e8 100%
+  );
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(to bottom, #1e5799 0%, #589cd3 48%, #7db9e8 100%);
+  /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=0);
 }
 
 nav .active {
-    border-bottom: 10px solid white;
+  border-bottom: 10px solid white;
 }
 
 main {
-    margin-top: 8px;
+  margin-top: 8px;
 }
 
 table {
-    padding: 10px;
+  padding: 10px;
 }
 
-th, td {
-    border: 1px solid #1e5799;
-    padding: 5px;
-  }
+th,
+td {
+  border: 1px solid #1e5799;
+  padding: 5px;
+}
 
 td p {
-    font-size: 1em;
-    margin-block: 0.5em;
+  font-size: 1em;
+  margin-block: 0.5em;
 }
 
 .item-price {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .item-price-reduced {
-    font-size: 2em;
-    color: red;
+  font-size: 2em;
+  color: red;
 }
 
 .item-price-original {
-    font-size: 1em;
-    color: gray;
-    text-decoration: line-through;
-    padding-left: 2em;
+  font-size: 1em;
+  color: gray;
+  text-decoration: line-through;
+  padding-left: 2em;
 }
 
 .rating-1,
@@ -73,30 +83,82 @@ td p {
 .rating-3,
 .rating-4,
 .rating-5 {
-    width: 100px;
+  width: 100px;
 }
 
 footer {
-    background-color: white;
-    padding: 20px;
-    text-align: center;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 .articles-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 
 .article {
-    border: 1px solid #1e5799;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 5px;
-    background-color: white;
-    width: 400px;
-    overflow: hidden;
+  border: 1px solid #1e5799;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: white;
+  width: 400px;
+  overflow: hidden;
 }
 
+.thank-you-main button {
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+  margin: 1px;
 
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,589cd3+48,7db9e8+100 */
+
+  /* Old browsers */
+  background: #1e5799;
+  /* FF3.6-15 */
+  background: -moz-linear-gradient(top, #1e5799 0%, #589cd3 48%, #7db9e8 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-linear-gradient(
+    top,
+    #1e5799 0%,
+    #589cd3 48%,
+    #7db9e8 100%
+  );
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(to bottom, #1e5799 0%, #589cd3 48%, #7db9e8 100%);
+  /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=0);
+  vertical-align: center;
+  border: 1px solid #98999b;
+  border-radius: 5px;
+}
+
+.thank-you-main {
+  text-align: center;
+}
+
+.thank-you-main a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin: 0px;
+}
+
+.thank-you-text {
+  border: 1px solid #1e5799;
+  padding: 10px;
+  border-radius: 5px;
+  margin: auto;
+  background-color: white;
+  width: 800px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.thank-you-button-container {
+  margin: 20px;
+}
