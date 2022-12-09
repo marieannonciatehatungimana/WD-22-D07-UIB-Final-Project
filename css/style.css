@@ -25,7 +25,11 @@ button {
 }
 
 button:hover {
- background-color: #065ba0;
+  background-color: #065ba0;
+}
+
+.rounded-border-element {
+  border-radius: 0.3rem;
 }
 
 .button-container {
@@ -127,7 +131,7 @@ footer {
 .article {
   border: 1px solid #1e5799;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 0.3rem;
   margin: 5px;
   background-color: white;
   width: 400px;
@@ -149,7 +153,6 @@ footer {
 .thank-you-text {
   border: 1px solid #1e5799;
   padding: 10px;
-  border-radius: 5px;
   margin: auto;
   background-color: white;
   width: 800px;
@@ -167,8 +170,7 @@ form {
 
 fieldset {
   border: 1px solid #1e5799;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 1rem;
   margin: auto;
   background-color: white;
   width: 800px;
@@ -177,37 +179,31 @@ fieldset {
 }
 
 legend {
-  background-color: #b0c4de;
+  background-color: #6ba4ed;
   color: white;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 0.8rem;
 }
 
 label {
   display: inline-block;
-  width: 30rem;
-  padding: 0.5rem;
+  width: 50rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.3rem;
 }
 
 input[type="text"],
-input[type="email"] {
-  padding: 2px 3px;
-}
-
-label[for="experience"] {
-  vertical-align: top;
-  padding: 0;
-}
-
-label[for="reference"] {
-  width: 16rem;
-}
-
-.experience {
-  margin: 2rem 0;
+input[type="email"],
+input[type="phone"] {
+  padding: 0.2rem 0.3rem;
 }
 
 textarea {
-  padding: 5px;
+  padding: 0.3rem;
   font-family: inherit;
+  font-size: 1rem;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 40rem;
 }
