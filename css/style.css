@@ -96,6 +96,7 @@ footer {
     margin: 5px;
     background-color: white;
     width: 400px;
+    overflow: hidden;
 }
 
 
