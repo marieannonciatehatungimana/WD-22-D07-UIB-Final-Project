@@ -1,0 +1,78 @@
+body {
+    font-family: "AvenirNext","Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #d3d3d3;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+    background-color: #b0c4de;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 10px;
+    margin: 1px;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,589cd3+48,7db9e8+100 */
+
+    /* Old browsers */
+    background: #1e5799;
+    /* FF3.6-15 */
+    background: -moz-linear-gradient(top, #1e5799 0%, #589cd3 48%, #7db9e8 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-linear-gradient(top, #1e5799 0%, #589cd3 48%, #7db9e8 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: linear-gradient(to bottom, #1e5799 0%, #589cd3 48%, #7db9e8 100%);
+    /* IE6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=0);
+}
+
+nav .active {
+    border-bottom: 10px solid white;
+}
+
+main {
+    background-color: white;
+    margin-top: 8px;
+}
+
+table {
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid #1e5799;
+    padding: 5px;
+  }
+
+td p {
+    font-size: 1em;
+    margin-block: 0.5em;
+}
+
+.item-price {
+    font-size: 2em;
+}
+
+.item-price-reduced {
+    font-size: 2em;
+    color: red;
+}
+
+.item-price-original {
+    font-size: 1em;
+    color: gray;
+    text-decoration: line-through;
+    padding-left: 2em;
+}
+
+.rating-1,
+.rating-2,
+.rating-3,
+.rating-4,
+.rating-5 {
+    width: 100px;
+}
