@@ -93,9 +93,15 @@ main {
   padding: 1rem;
   margin: auto;
   background-color: white;
-  width: 87.50rem;
+  width: 87.5rem;
   overflow: hidden;
   text-align: left;
+}
+
+.welcome-message {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .item-price {
@@ -214,3 +220,4 @@ textarea {
 .form-container textarea {
   width: 40rem;
 }
+
