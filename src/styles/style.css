@@ -71,6 +71,7 @@ button:hover {
 nav {
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   text-align: center;
   background-color: #b0c4de;
