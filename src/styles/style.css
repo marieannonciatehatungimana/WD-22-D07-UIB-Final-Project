@@ -71,6 +71,8 @@ nav {
   height: auto;
   width: 100%;
   justify-content: center;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 nav a {
