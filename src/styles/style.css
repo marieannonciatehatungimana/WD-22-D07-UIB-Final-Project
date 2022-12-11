@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "AvenirNext", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 /* 
  Media queries
 */
@@ -23,10 +33,6 @@
 /* 
  Other
 */
-
-html {
-  font-family: "AvenirNext", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
 
 body {
   width: 100%;
