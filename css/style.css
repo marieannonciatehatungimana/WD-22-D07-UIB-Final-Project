@@ -72,23 +72,30 @@ nav .active {
   border-bottom: 10px solid white;
 }
 
+nav img {
+  margin-left: 0.5rem;
+}
+
 main {
   margin-top: 8px;
 }
 
-table {
-  padding: 10px;
+.home-container {
+  margin: 1.25rem;
 }
 
-th,
-td {
+.home-container {
+  margin: 1.25rem;
+}
+
+.home-contents {
   border: 1px solid #1e5799;
-  padding: 5px;
-}
-
-td p {
-  font-size: 1em;
-  margin-block: 0.5em;
+  padding: 1rem;
+  margin: auto;
+  background-color: white;
+  width: 87.50rem;
+  overflow: hidden;
+  text-align: left;
 }
 
 .item-price {
