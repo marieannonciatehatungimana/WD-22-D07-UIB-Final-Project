@@ -129,6 +129,13 @@ main {
   text-align: left;
 }
 
+.sub-main {
+  margin: auto;
+  background-color: white;
+  width: 90%;
+  margin-bottom: 1.25rem;
+}
+
 .home-icon {
   width: 1.875rem;
   height: 1.875rem;
