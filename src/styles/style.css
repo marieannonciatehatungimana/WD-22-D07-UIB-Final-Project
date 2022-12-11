@@ -1,10 +1,36 @@
+/* 
+ Media queries
+*/
+
+@media (min-width: 0px) and (max-width: 800px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1201px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* 
+ Other
+*/
+
 html {
-  font-size: 16px;
   font-family: "AvenirNext", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
-  font-family: "AvenirNext", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 100%;
+  margin: auto;
   background-color: #d3d3d3;
 }
 
@@ -16,7 +42,7 @@ input {
 button {
   color: white;
   border: 1px solid #98999b;
-  padding: 15px;
+  padding: 1rem;
   border-radius: 1.5rem;
   outline: none;
   cursor: pointer;
@@ -33,21 +59,26 @@ button:hover {
 }
 
 .button-container {
-  margin: 20px;
+  margin: 1.25rem;
 }
 
 nav {
-  padding: 10px;
+  margin: auto;
+  display: flex;
+  align-items: center;
   text-align: center;
   background-color: #b0c4de;
+  height: auto;
+  width: 100%;
+  justify-content: center;
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  font-size: 2em;
-  padding: 10px;
-  margin: 1px;
+  font-size: 2rem;
+  padding: 0.625rem;
+  margin: 0.0625rem;
 
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,589cd3+48,7db9e8+100 */
 
@@ -69,7 +100,7 @@ nav a {
 }
 
 nav .active {
-  border-bottom: 10px solid white;
+  border-bottom: 0.625rem solid white;
 }
 
 nav img {
@@ -77,7 +108,7 @@ nav img {
 }
 
 main {
-  margin-top: 8px;
+  margin-top: 0.5rem;
 }
 
 .home-container {
@@ -93,9 +124,14 @@ main {
   padding: 1rem;
   margin: auto;
   background-color: white;
-  width: 87.5rem;
+  width: 90%;
   overflow: hidden;
   text-align: left;
+}
+
+.home-icon {
+  width: 1.875rem;
+  height: 1.875rem;
 }
 
 .welcome-message {
@@ -130,8 +166,11 @@ main {
 
 footer {
   background-color: white;
-  padding: 20px;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
   text-align: center;
+  width: 100%;
+  margin: auto;
 }
 
 .articles-container {
